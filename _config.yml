@@ -1,0 +1,47 @@
+# Site Info
+title:              "Spaced Out Thoughts"
+description:        ""
+author_name:        "Cadet 305" # change this to your name
+logo_url:           https://cdn.dribble.com/users/1422887/screenshots/6028733/media/5b2995fd93e702b5ad720957b6bac5d1.png
+
+# Site Settings
+url:                https://spaced-out-thoughts.github.io # main url
+baseurl:            /
+permalink:          /:title # Post permalink
+timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-feed
+
+remote_theme: heiswayi/the-plain
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
