@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello World"
+title:  "Dodo I Launch Overview"
 date:   2022-09-16 19:19:21 +0700
 launch: Dodo I
 launch_date: 10/22/2022
@@ -10,7 +10,7 @@ launch_date: 10/22/2022
 
 100g Professional Weather Balloon
 
-[Fuel]: Helium (purchased from Party City
+[Fuel]: Helium (purchased from Party City)
 
 ## Payload
 
