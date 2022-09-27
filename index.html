@@ -24,7 +24,7 @@ layout: default
                     {% if post.launch %}
                     <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Launch] {{ post.launch }} | {{post.launch_date}}</a>
                     {% elsif post.org %}
-                    <a href=" {{post.url | prepend: site.baseurl | prepend: site url }}"> [Org News] {{ post.title }}</a>
+                    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> [Org News] {{ post.title }}</a>
                     {% else %}
 					    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
                     {% endif %}
